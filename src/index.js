@@ -99,12 +99,6 @@ function fetchEpisodeById(id) {
     .then(json => json);
 }
 
-function fetchEpisodeByUrl(url) {
-  return fetch(url)
-    .then(res => res.json())
-    .then(json => json);
-}
-
 function fetchCharacters() {
   // More info about the fetch function? https://github.com/bitinn/node-fetch#json
   return fetch("https://rickandmortyapi.com/api/character/")
@@ -115,13 +109,6 @@ function fetchCharacters() {
 function fetchCharacterById(id) {
   // More info about the fetch function? https://github.com/bitinn/node-fetch#json
   return fetch("https://rickandmortyapi.com/api/character/" + id)
-    .then(res => res.json())
-    .then(json => json);
-}
-
-function fetchCharacterByUrl(url) {
-  // More info about the fetch function? https://github.com/bitinn/node-fetch#json
-  return fetch(url)
     .then(res => res.json())
     .then(json => json);
 }
