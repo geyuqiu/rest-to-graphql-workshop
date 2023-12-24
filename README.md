@@ -32,20 +32,6 @@
 
 - [ ] 5 Create a query that returns a single Character given an id. You need to fetch the character using `https://rickandmortyapi.com/documentation/#get-a-single-character`. Hint, you need to use [arguments](https://graphql.org/graphql-js/passing-arguments/)
 
-### Bonus
-
-- Create the types and resolvers so the following query works:
-
-```
-query episode {
-  episode(id: 1) {
-    name
-  }
-}
-```
-
-- Once implemented, do you see any vulnerability issues on that query?
-
 ## Articles and links
 
 - http://graphql.org/learn/
