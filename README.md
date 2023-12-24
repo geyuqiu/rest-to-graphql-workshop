@@ -4,7 +4,10 @@
 - Learn how to migrate an existent REST API to GraphQL and start “thinking in graphs”
 - Start identifying potential problems when running real-world GraphQL APIs
 
-## Exercise
+## Exercise part 1
+- list all the books with all params
+
+## Exercise part 2
 
 ### Tasks
 
