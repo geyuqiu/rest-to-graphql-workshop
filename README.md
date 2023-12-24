@@ -1,32 +1,10 @@
-# Thinking in GraphQL exercise
-
-This exercise is part of the [React GraphQL Academy](http://reactgraphql.academy) learning material. The goal of the exercise is to help you get started transitioning from REST to GraphQL.
-
 ## Learning objectives
 
 - Understand the main functionalities and responsibilities of a GraphQL server
 - Learn how to migrate an existent REST API to GraphQL and start “thinking in graphs”
 - Start identifying potential problems when running real-world GraphQL APIs
 
-## Exercise part 1
-
-[https://rickandmortyapi.com/graphql/](https://rickandmortyapi.com/graphql/)
-
-- Query a list with all the character names
-- Query how many characters are in the system
-- Query a single characther by id (try id equals 1) and get its name
-- How many types do we have in the system?
-
-## Exercise part 2
-
-### To get started
-
-We are going to create our own GraphQL API on top of this [Rick and Morty API](https://rickandmortyapi.com/documentation/#rest)
-
-- `git clone git@github.com:reactgraphqlacademy/rest-to-graphql-workshop.git`
-- `cd rest-to-graphql-workshop`
-- `yarn install` or `npm install`
-- `yarn start` or `npm start`
+## Exercise
 
 ### Tasks
 
